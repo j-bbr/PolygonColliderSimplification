@@ -7,6 +7,7 @@ namespace Collider2DOptimization{
 	/// Polygon collider optimizer. Removes points from the collider polygon with 
 	/// the given reduction Tolerance
 	/// </summary>
+	[AddComponentMenu("2D Collider Optimization/ Polygon Collider Optimizer")]
 	[RequireComponent(typeof(PolygonCollider2D))]
 	public class PolygonColliderOptimizer : MonoBehaviour {
 		public double tolerance = 0;

@@ -8,6 +8,7 @@ namespace Collider2DOptimization{
 	/// into the edgeNormalOpposite direction (by default downwards). The resulting points are then reduced with 
 	/// the given tolerance
 	/// </summary>
+	[AddComponentMenu("2D Collider Optimization/ Edge Collider Optimizer")]
 	[RequireComponent(typeof(PolygonCollider2D), typeof(EdgeCollider2D))]
 	public class EdgeColliderOptimizer : MonoBehaviour {
 		public Vector2 edgeNormalOpposite = Vector2.down;
